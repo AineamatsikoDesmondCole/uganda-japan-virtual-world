@@ -1,4 +1,4 @@
-﻿export async function run() {
+﻿async function run() {
     await WA.onInit();
 
     console.info("[GuideBot] starting");
@@ -137,3 +137,5 @@
         await wait(500);
     }
 }
+
+window.run = run;
